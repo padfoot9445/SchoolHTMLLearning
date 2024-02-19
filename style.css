@@ -1,0 +1,22 @@
+.project-list
+{
+    display: flex;
+    flex-direction: column;
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+    width: 80vh;
+}
+.project
+{
+    margin: 5px;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+.project-link
+{
+    text-decoration: none;
+}
