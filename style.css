@@ -1,4 +1,5 @@
-.project-list
+/*#region main.html*/
+.project
 {
     display: flex;
     flex-direction: column;
@@ -20,3 +21,23 @@
 {
     text-decoration: none;
 }
+/*#endregion*/
+
+/*#region page-stuff*/
+.page-background
+{
+    width: 100vw;
+    height: 100vh;
+    color: rgb(187, 187, 187);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.page-unbounded
+{
+    width: 80vw;
+    color: white;
+    box-shadow: grey 1px;
+}
+/* #endregion */
