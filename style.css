@@ -10,7 +10,7 @@
     flex-direction: row;
     width: 80vh;
 }
-.project
+.project 
 {
     margin: 5px;
     width: 50%;
@@ -84,7 +84,7 @@
 {
     display: flex;
     flex-direction: row;
-    min-width: 100vw;
+    min-width: 95vw;
     border: solid black 1px;
     height: 3vh;
     padding-left: 3vw;
@@ -96,7 +96,7 @@
     align-items: left;
     justify-content: left;
     text-align: left;
-    min-width: 50%;
+    width: 50%;
 }
 .nav-bar > .right
 {
@@ -105,14 +105,54 @@
     justify-content: right;
     text-align: right;
     align-self: right;
-    min-width: 50%;
+    width: 50%;
     border: solid red 1px;
+    padding-right: 3vw;
+}
+.underbar
+{
+    display: flex;
+    align-items: right;
+    border: solid black 1px;
+    justify-content: right;
+    min-height: 3vh;
+}
+.right > a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.right > button:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.right > a:hover
+{
+    text-decoration: underline;
+}
+.right > button
+{
+    height: 95%;
+    background-color: white;
+    border: none
+}
+.dropdown
+{
+    position: relative;
+    display: none;
+}
+#projects-dropdown
+{
+    display: block;
 }
 /* #endregion */
 #index
 {
     display: flex;
     flex-direction: column;
+    width: 95vw;
 }
 .unstyled-list
 {
