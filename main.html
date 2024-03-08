@@ -10,19 +10,29 @@
         <script src="script.js"></script> 
     </head>
     <body id="index">
-        <div class="nav-bar">
-            <div class="left">Padfoot9445</div>
-            <div class="right">
-                <a href="main.html">Projects</a><button class="projects-dropdown" onclick="DropdownButton()">▼</button>
-                &nbsp;&nbsp;&nbsp;&nbsp;<a href="about.html">About</a>
+        <header>
+            <div class="nav-bar">
+                <div class="left">Padfoot9445</div>
+                <div class="right">
+                    <a href="main.html">Projects</a><button class="projects-dropdown" onclick="ToggleDropdown()">▼</button>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<a href="about.html">About</a>
+                </div>
             </div>
-        </div>
-        <div class="underbar">
-                <ul class="dropdown" id="projects-dropdown">
-                    <li>1</li>
-                    <li>2</li>
-                </ul>
-        </div>
+            <div class="underbar">
+                    <ul class="dropdown unstyled-list" id="projects-dropdown-list">
+                        <li><h3>Languages<h3></li>
+                        <li><a href="Expa.html">Expa</a>(c#)</li>
+                        <li><a href="ExpaILcs.html">ExpaIL</a>(c#)</li>
+                        <li><a href="ExpaILC.html">ExpaIL</a>(C-lang)</li>
+                        <li><h3>Nations(Nostars)</h3></li>
+                        <li><a href="Icarus.html">Republic of Icarus</a></li>
+                        <li><a href="Astela.html">Astela</a></li>
+                        <li><h3>Nations(Misc)</h3></li>
+                        <li><a href="Icarus-other.html">Republic of Icarus</a>(other)</li>
+                        <li><a href="Astela-other.html">Astela</a>(other)</li>
+                    </ul>
+            </div>
+        </header>
         <div class="project-list" >
             <div class="row">
                 <div class="project"><a href="Expa.html" class="project-link">EXPA-lang</a></div>
