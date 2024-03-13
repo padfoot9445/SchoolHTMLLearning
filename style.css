@@ -147,6 +147,10 @@
 {
     position: absolute;
     display: none;
+    background-color: white;
+    border: solid black 4px;
+    padding-right: 10px;
+    padding-bottom: 5px;
 }
 #projects-dropdown
 {
