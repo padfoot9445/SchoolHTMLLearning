@@ -186,3 +186,9 @@ li > h3
     padding: var(--dropdown-padding-size);
     margin: 0;
 }
+
+.body
+{
+    padding-left: 5%;
+    padding-right: 8%;
+}
